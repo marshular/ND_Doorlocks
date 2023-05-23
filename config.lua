@@ -11,7 +11,7 @@ doorList = {
             {hash = -1333201680, model = 320433149, coords = vector3(434.75, -983.22, 30.84)}
         },
         authorizedJobs = {"SAHP", "LSPD", "BCSO"}--,
-        ---doorSounds = {"garageDoor, doorBuzzer, buildingLock"},
+        ---doorSounds = {"garageDoor, doorBuzzer, buildingLock, cellDoor"},
     },
     { -- Mission Row Police Station weapon locker door.
         state = 1,
@@ -20,8 +20,8 @@ doorList = {
         doors = {
             {hash = -591568775, model = 749848321, coords = vector3(453.08, -983.19, 30.84)}
         },
-        authorizedJobs = {"SAHP", "LSPD", "BCSO"},
-        ---doorSounds = {"garageDoor, doorBuzzer, buildingLock"},
+        authorizedJobs = {"SAHP", "LSPD", "BCSO"}--,
+        ---doorSounds = {"garageDoor, doorBuzzer, buildingLock, cellDoor"},
     },
     { -- Sandy Shores Sherrif front door.
         state = 0,
@@ -31,7 +31,7 @@ doorList = {
             {hash = -1564447255, model = -1765048490, coords = vector3(1855.68, 3683.93, 34.59)}
         },
         authorizedJobs = {"SAHP", "LSPD", "BCSO"}--,
-        ---doorSounds = {"garageDoor, doorBuzzer, buildingLock"},
+        ---doorSounds = {"garageDoor, doorBuzzer, buildingLock, cellDoor"},
     },
     { -- Paleto bay sheriff front doors.
         state = 0,
@@ -43,6 +43,6 @@ doorList = {
             {hash = -2065247820, model = -1501157055, coords = vector3(-442.66, 6015.22, 31.87)}
         },
         authorizedJobs = {"SAHP", "LSPD", "BCSO"}--,
-        ---doorSounds = {"garageDoor, doorBuzzer, buildingLock"},
+        ---doorSounds = {"garageDoor, doorBuzzer, buildingLock, cellDoor"},
     },
 }
