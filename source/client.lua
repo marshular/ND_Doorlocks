@@ -182,6 +182,7 @@ CreateThread(function()
                 if hasAccess and IsControlJustPressed(0, 51) then
                     doorInfo.state = doorChangeState(doorInfo.state)
                     TriggerServerEvent("ND_Doorlocks:setState", id, doorInfo.state)
+                    TriggerServerEvent('InteractSound_SV:PlayWithinDistance', 0.5, doorInfo.doorSound, 1.0)
                 end
             end
         end
